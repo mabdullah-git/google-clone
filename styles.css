@@ -72,8 +72,19 @@
     background-size: auto;
     
 }
+.f1{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.f1:hover {
+    text-decoration: underline;
+
+   
+}
 #sign-in-button:hover {
     text-decoration: underline;
+
+   
 }
 #button {
     
@@ -243,6 +254,7 @@
         display: flex;
         justify-content: space-between;
         padding-left: 10%;
+        padding-top: 4%;
         gap: 15px;
     }
 
@@ -252,11 +264,12 @@
         font-size: 14px;
         font-family: Arial,sans-serif;
         color: #1f1f1f;
-    
+        padding-top: 4%;
         display: flex;
         justify-content:space-between;
         padding-right: 10%;
         gap: 15px;
+        padding-bottom: 20px;
     }
     .footer{
         
@@ -298,23 +311,72 @@
         background-color: #DADCE0; /* Change color if needed */
         width: 100vw;
     }
+  
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
 
     @media (max-width: 600px) {
         .footer {
-            flex-direction: column; /* Stacks children */
-            align-items: center; /* Centers them */
+            flex-direction: row; /* Stacks children */
+             /* Adds space between items */
+            height: max-content; /* Full width */
         }
     
-        .footer1, .footer2 {
-            width: 100%; /* Full width */
-            text-align: center;
+        .footer1 {
+            display: flex; /* Removes stacking */
+           flex-direction: row;
+            width: 90%; /* Full width */
+            padding-left: 35px;
+            word-spacing: 40px;
+            gap: 40px;
             }
+            .footer2 {
+                display: flex; /* Removes stacking */
+               flex-direction: row;
+               flex-wrap: nowrap;
+                width: 100%; /* Full width */
+                padding-left: 35px;
+                word-spacing: 20px;
+                padding-bottom: 10px;    
+            }
+            
         }
 
+      @media (max-width: 600px) {
+        .top1 {
+            padding-right:  20px; /* Add space between items */
         
-        body {
-            margin: 0;
-            padding: 0;
         }
         
-   
+    .outer{
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .search-bar{
+        position:absolute;
+        width: 90%;
+        top: 0;
+        left: 0;
+     
+    }
+    .search-icon{
+        padding-left: 2px;
+        padding-top: 3px;
+    }
+        .mic-btn{position: absolute;
+            top: 10px;
+            left: 80px;
+            z-index: 1;
+            background-color: transparent;
+   }
+
+   .btn{
+    padding-top:16%;
+margin-left: 50px   }
+
+    }
