@@ -1,0 +1,320 @@
+.top{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.top1{
+    display: flex;
+    justify-content: flex-end;
+   
+    line-height: 25px;
+    cursor: pointer;
+    color: rgb(31,31,31);
+    font-size: 13px;
+    font-family: ariel , sans-serif;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 24px;
+    width: 33.953;
+    outline-width: 1px;
+    padding-left: 15px;
+    text-wrap: no wrap;
+    white-space-collapse: collapse;
+    margin-right: 1.2%;
+    
+}
+.top11{
+
+    margin-right: 13.3%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.t11{
+    text-decoration: none;
+    color: #444747;
+}
+.t11:hover {
+    text-decoration: underline;
+}
+.top2{
+    display: flex;
+    justify-content: flex-end;
+ }
+
+
+.top22{
+    
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.search-icon{
+    color: #9AA0A6;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+#sign-in-button{
+    background-color: #0b57d0;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 15px 20px 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-wrap: wrap;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: ariel , sans-serif;
+    font-stretch: 100%;
+    font-weight: 400;
+    text-decoration-style: solid;
+    background-size: auto;
+    
+}
+#sign-in-button:hover {
+    text-decoration: underline;
+}
+#button {
+    
+    height: 24px; 
+    width: 24px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 19px;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+}
+
+#button:hover {
+    background-color: rgba(66, 133, 244, 0.1); /* Match the color of the Google button */
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .top2 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .top2 {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 768px) {
+    .top1 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .top1 {
+        justify-content: flex-start;
+    }
+}
+
+#upper_middle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top:  207px;
+    
+}
+
+#search{
+        width: 100%;
+        max-width: 584px;
+        height: 44px;
+        padding: 0 16px;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        background-color: #fff;
+        box-shadow: none;
+        font-size: 16px;
+        color: #202124;
+        outline: none;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    #search:focus {
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+    }
+
+    .search-bar{
+        --padding:14px;
+        width: 582px;
+        display: relative;
+        justify-content: center;
+        
+        border-radius: 28px;
+        background-color: #f6f6f6;
+        transition: background 0.25s;
+        height: 46px;
+        margin-top: 3%;
+        
+    
+    }
+    .outer{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .search-bar:focus-within{
+        background-color: #f1f1f1f1;
+    }
+    .search-input{
+        font-size: 16px;
+        font-family: lexend, sans-serif;
+        color: #333333;
+        margin-left: 13px;
+        padding-bottom: 10px;
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 219px ;
+        height: 46px;
+        
+    }
+    .mic-btn{
+             padding-left:250px;padding-bottom: 12px; background: transparent; border: none;
+    }
+    .img{
+        width: 1.5rem;
+        height: 1.5rem;
+    
+    }
+    #btn1, #btn2{
+
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: Arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .btn{
+
+        display: flex;
+        justify-content: center;
+        
+        padding-top: 15px;
+    }
+    .lang{
+        
+        font-family: Arial,sans-serif;
+        text-align: center;
+        font-size: small;
+        color: #474747;
+        display: inline-block;
+        line-height: 28px;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .langu:hover {
+         text-decoration: underline;
+
+        }
+    
+    .footer1{
+
+        font-size: 14px;
+        font-family: Arial,sans-serif;
+        color: #1f1f1f;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        gap: 15px;
+    }
+
+    
+    .footer2{
+
+        font-size: 14px;
+        font-family: Arial,sans-serif;
+        color: #1f1f1f;
+    
+        display: flex;
+        justify-content:space-between;
+        padding-right: 10%;
+        gap: 15px;
+    }
+    .footer{
+        
+        display: flex;
+        justify-content:space-between;
+        align-items: center; /* Aligns them vertically */
+        flex-wrap: wrap; /* Allows stacking on small screens */
+        background-color: #F2F2F2;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 5vh;
+    }
+
+    .location{
+
+            
+            font-family: Arial, sans-serif;
+            padding: 15px 30px;
+            border-bottom: 1px solid rgb(242, 242, 242);
+            font-size: 15px;
+            color: #1f1f1f;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #F2F2F2; /* Change background to black */
+            
+        
+    }
+.bottom{
+    position: fixed;
+        bottom: 0;
+}
+    hr{
+        margin: 0;
+        padding: 0;
+        border: none; /* Removes default border */
+        height: 2px; /* Adjust thickness */
+        background-color: #DADCE0; /* Change color if needed */
+        width: 100vw;
+    }
+
+    @media (max-width: 600px) {
+        .footer {
+            flex-direction: column; /* Stacks children */
+            align-items: center; /* Centers them */
+        }
+    
+        .footer1, .footer2 {
+            width: 100%; /* Full width */
+            text-align: center;
+            }
+        }
+
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+   
